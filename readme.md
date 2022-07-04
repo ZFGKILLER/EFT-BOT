@@ -5,7 +5,10 @@ works with python 3.10
 
 if u want the game to restart if it crashes you must keep the launcher open on game launch
  python must be installed by being added to path and custom installation(can use defualt settings in custom install)
- game must be in 1920x1090 (16:9)
+ monitor must be set to 1920x1080 (16:9)
+ EFT must have the setting stamina and stance under the game tab set to always shown
+ 
+ if the you are highlighting itmes after stopping the script hit shift and it will stop
 
 
 you can skip all of this and just run the install python.bat file 
