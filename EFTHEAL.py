@@ -7,9 +7,7 @@ import win32gui
 import pydirectinput
 
 
-
-Random = ['a','w','s','d','4','q','1','2','3','4']
-win32gui.SetForegroundWindow(11603728)  
+ 
 
 
 while True:
