@@ -15,8 +15,6 @@ while True:
     if pyautogui.locateOnScreen('play.png', grayscale=True, confidence=0.5) != None:
         location = pyautogui.locateOnScreen('play.png')
         pyautogui.click(location)
-        time.sleep(2)
-        print("game launching")
     
     if pyautogui.locateOnScreen('eftmenu.png', grayscale=True, confidence=0.5) != None:
         pyautogui.click(971, 646)

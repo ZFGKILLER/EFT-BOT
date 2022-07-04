@@ -4,7 +4,8 @@ hello this is a basic python script, that just looking for thinks on your screen
 works with python 3.10
 
 if u want the game to restart if it crashes you must keep the launcher open on game launch
-
+ python must be installed by being added to path and custom installation(can use defualt settings in custom install)
+ game must be in 1920x1090 (16:9)
 
 
 you can skip all of this and just run the install python.bat file 
