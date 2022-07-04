@@ -79,6 +79,11 @@ while True:
          print("deploying")
          time.sleep(0.5)
 
+    if pyautogui.locateOnScreen('ac-connectionlost.png', grayscale=True, confidence=0.7) != None:
+         print("anti cheat connection lost game must restart")
+         pyautogui.click(962, 580)
+         time.sleep(0.5)
+
     if pyautogui.locateOnScreen('connectionlost.png', grayscale=True, confidence=0.7) != None:
          print("connection lost")
          pyautogui.click(962, 580)
