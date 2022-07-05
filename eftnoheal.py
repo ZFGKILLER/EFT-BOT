@@ -108,6 +108,11 @@ while True:
                 #prevent any bot
                 time.sleep(20)
 
+    if pyautogui.locateOnScreen('failedtofindraid.png', grayscale=True, confidence=0.8) != None:
+         print("error failed to find raid, trying again")
+         time.sleep(1)
+         pydirectinput.click(958, 567)
+
     if pyautogui.locateOnScreen('bush.png', grayscale=True, confidence=0.9) != None:
                 print("bush detected attempting to move away")
                 #run avoid bush

@@ -99,6 +99,11 @@ while True:
          time.sleep(1)
          pydirectinput.click(958, 901)
     
+    if pyautogui.locateOnScreen('failedtofindraid.png', grayscale=True, confidence=0.8) != None:
+         print("error failed to find raid, trying again")
+         time.sleep(1)
+         pydirectinput.click(958, 567)
+    
     if pyautogui.locateOnScreen('deploy_wait.png', grayscale=True, confidence=0.6) != None:
          print("deploying soon")
          time.sleep(0.5)
